@@ -136,6 +136,3 @@ for (i in 1: NROW(listPerfiles)){
   validaPerfil <- unique(validaPerfil)
   names(validaPerfil) <- c('profile_Id','layer_Id', 'inconsistencia', 'errorCode')
 }
-
-
-read.cs
